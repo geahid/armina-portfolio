@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Armina Agao — Creative Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&family=DM+Sans:wght@300;400;500&family=Bebas+Neue&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- CURSOR -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-trail" id="cursorTrail"></div>
+
+  <!-- NAV -->
+  <nav class="nav" id="nav">
+    <div class="nav-logo">AA</div>
+    <ul class="nav-links">
+      <li><a href="#intro">Home</a></li>
+      <li><a href="#featured">Works</a></li>
+      <li><a href="#achievements">Awards</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#closing">Contact</a></li>
+    </ul>
+    <div class="nav-burger" id="navBurger">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <!-- MOBILE MENU -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#intro" class="mob-link">Home</a></li>
+      <li><a href="#featured" class="mob-link">Works</a></li>
+      <li><a href="#achievements" class="mob-link">Awards</a></li>
+      <li><a href="#skills" class="mob-link">Skills</a></li>
+      <li><a href="#closing" class="mob-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- HERO / INTRO -->
+  <section class="intro" id="intro">
+    <div class="intro-noise"></div>
+    <div class="intro-grid"></div>
+    <div class="intro-content">
+      <div class="intro-tag reveal">Editor · Writer · Photographer</div>
+      <h1 class="intro-name reveal">
+        <span class="line">Armina</span>
+        <span class="line italic">Agao</span>
+      </h1>
+      <p class="intro-tagline reveal">
+        Crafting stories through lenses, words, and frames.<br />
+        <em>Where creativity meets purpose.</em>
+      </p>
+      <div class="intro-cta reveal">
+        <a href="#featured" class="btn-primary">View My Work</a>
+        <a href="#achievements" class="btn-outline">Achievements</a>
+      </div>
+    </div>
+    <div class="intro-visual reveal">
+      <div class="intro-photo-frame">
+        <img src="assets/images/img10.png" alt="Armina Agao - Editor" />
+        <div class="frame-deco"></div>
+      </div>
+      <div class="intro-stat-cards">
+        <div class="stat-card">
+          <span class="stat-num">1st</span>
+          <span class="stat-label">Mobile Photography</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num">2×</span>
+          <span class="stat-label">Shutter's Best Winner</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num">Editor</span>
+          <span class="stat-label">STI Instinct Magazine</span>
+        </div>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ABOUT STRIP -->
+  <section class="about-strip">
+    <div class="strip-marquee">
+      <span>BACOMM Student · STI College Cotabato · Editor · Photographer · Broadcaster · Visual Storyteller · Award-Winning · </span>
+      <span>BACOMM Student · STI College Cotabato · Editor · Photographer · Broadcaster · Visual Storyteller · Award-Winning · </span>
+    </div>
+  </section>
+
+  <!-- FEATURED WORKS -->
+  <section class="featured" id="featured">
+    <div class="section-header reveal">
+      <span class="section-tag">02 / Featured Works</span>
+      <h2>Selected <em>Edits</em></h2>
+      <p>A curated showcase of editorial work, publications, and creative projects from STI College Cotabato.</p>
+    </div>
+
+    <!-- MAGAZINE / PUBLICATION WORK -->
+    <div class="work-category reveal">
+      <h3 class="cat-label">— Publication Design</h3>
+      <div class="pub-grid">
+        <div class="pub-card big">
+          <img src="assets/images/img32.png" alt="Echoes of 2024 Cover" />
+          <div class="pub-overlay">
+            <span class="pub-tag">Magazine Cover</span>
+            <h4>Echoes of 2024</h4>
+            <p>Editor — INSTINCT Official School Publication</p>
+          </div>
+        </div>
+        <div class="pub-col">
+          <div class="pub-card">
+            <img src="assets/images/img11.png" alt="STI Cotabato Publication" />
+            <div class="pub-overlay">
+              <span class="pub-tag">Back Cover</span>
+              <h4>STI Cotabato 2024.25.12</h4>
+            </div>
+          </div>
+          <div class="pub-card">
+            <img src="assets/images/img29.png" alt="Contents Page" />
+            <div class="pub-overlay">
+              <span class="pub-tag">Layout Design</span>
+              <h4>INSTINCT Contents</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- EDITORIAL ARTICLES -->
+    <div class="work-category reveal">
+      <h3 class="cat-label">— Editorial Writing & Layout</h3>
+      <div class="editorial-grid">
+        <div class="edit-card">
+          <img src="assets/images/img09.png" alt="GPT Friend or Foe" />
+          <div class="edit-info">
+            <span class="edit-tag">Opinion / Editorial</span>
+            <h4>GPT: Friend or Foe?</h4>
+            <p>By Datu Faizal D. Kamsa</p>
+          </div>
+        </div>
+        <div class="edit-card">
+          <img src="assets/images/img12.png" alt="Feature Writing Bangsamoro" />
+          <div class="edit-info">
+            <span class="edit-tag">Feature Writing</span>
+            <h4>Pagpalain Bangsamoro</h4>
+            <p>Six Years of Resilience and Identity</p>
+          </div>
+        </div>
+        <div class="edit-card">
+          <img src="assets/images/img13.png" alt="Intramurals Article" />
+          <div class="edit-info">
+            <span class="edit-tag">Sports Coverage</span>
+            <h4>Happy Stier's Intramurals 2024</h4>
+            <p>STI Cotabato 2024 Intramurals</p>
+          </div>
+        </div>
+        <div class="edit-card">
+          <img src="assets/images/img16.png" alt="Outdoor Games" />
+          <div class="edit-info">
+            <span class="edit-tag">Sports</span>
+            <h4>Outdoor Games Champions</h4>
+            <p>Intramurals Coverage</p>
+          </div>
+        </div>
+        <div class="edit-card">
+          <img src="assets/images/img18.png" alt="Indoor Games" />
+          <div class="edit-info">
+            <span class="edit-tag">Sports</span>
+            <h4>Indoor Games Champions</h4>
+            <p>Intramurals Coverage</p>
+          </div>
+        </div>
+        <div class="edit-card">
+          <img src="assets/images/img15.png" alt="Socio Cultural" />
+          <div class="edit-info">
+            <span class="edit-tag">Events</span>
+            <h4>Socio-Cultural Champions</h4>
+            <p>Intramurals Cultural Events</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- BROADCAST / OJT WORK -->
+    <div class="work-category reveal">
+      <h3 class="cat-label">— Broadcast & On-Air Experience</h3>
+      <div class="broadcast-grid">
+        <div class="bc-card">
+          <img src="assets/images/img03.png" alt="OJT Radio" />
+          <div class="bc-info">
+            <span class="bc-tag">On-Air / OJT 2024</span>
+            <h4>Radio Broadcasting Intern</h4>
+            <p>Live broadcast experience at a local radio station — BACOMM OJT 2024</p>
+          </div>
+        </div>
+        <div class="bc-card">
+          <img src="assets/images/img04.png" alt="Armina Radio Intern" />
+          <div class="bc-info">
+            <span class="bc-tag">Radio Personality</span>
+            <h4>Armina Agao — On Air</h4>
+            <p>Named on-screen as Intern at BIDA Radio, showcasing real-world broadcast skills</p>
+          </div>
+        </div>
+        <div class="bc-card">
+          <img src="assets/images/img02.png" alt="BACOMM Promo" />
+          <div class="bc-info">
+            <span class="bc-tag">Program Feature</span>
+            <h4>BACOMM at STI Cotabato</h4>
+            <p>Featured in official STI promotional material for Bachelor of Arts in Communication</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- PHOTOGRAPHY WORK -->
+    <div class="work-category reveal">
+      <h3 class="cat-label">— Photography Projects</h3>
+      <div class="photo-masonry">
+        <div class="photo-item tall">
+          <img src="assets/images/img07.png" alt="Photographer at work" />
+          <div class="photo-overlay">
+            <span>Tagisan ng Sining 2024–2025</span>
+          </div>
+        </div>
+        <div class="photo-item">
+          <img src="assets/images/img05.png" alt="1st Place Photography" />
+          <div class="photo-overlay">
+            <span>1st Place — Mobile Photography Contest</span>
+          </div>
+        </div>
+        <div class="photo-item">
+          <img src="assets/images/img06.png" alt="Shutters Best Winner" />
+          <div class="photo-overlay">
+            <span>Shutter's Best Winner — Tagisan ng Sining</span>
+          </div>
+        </div>
+        <div class="photo-item">
+          <img src="assets/images/img01.png" alt="Local Competition" />
+          <div class="photo-overlay">
+            <span>Shutter's Best — Local Competition</span>
+          </div>
+        </div>
+        <div class="photo-item">
+          <img src="assets/images/img08.png" alt="Award Ceremony" />
+          <div class="photo-overlay">
+            <span>Tagisan ng Sining 2024–2025</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SCHOOL EVENTS COVERAGE -->
+    <div class="work-category reveal">
+      <h3 class="cat-label">— School Events Coverage</h3>
+      <div class="events-grid">
+        <div class="ev-card">
+          <img src="assets/images/img28.png" alt="Opening Salvo" />
+          <div class="ev-info"><h4>Opening Salvo 2024</h4><span>August</span></div>
+        </div>
+        <div class="ev-card">
+          <img src="assets/images/img23.png" alt="STEM Month" />
+          <div class="ev-info"><h4>STEM Month 2024</h4><span>September</span></div>
+        </div>
+        <div class="ev-card">
+          <img src="assets/images/img25.png" alt="STEM Month Celebrations" />
+          <div class="ev-info"><h4>STEM Celebrations</h4><span>September</span></div>
+        </div>
+        <div class="ev-card">
+          <img src="assets/images/img27.png" alt="Buwan ng Wika" />
+          <div class="ev-info"><h4>Buwan ng Wikang Pambansa</h4><span>August 29, 2024</span></div>
+        </div>
+        <div class="ev-card">
+          <img src="assets/images/img22.png" alt="District 1 Meet" />
+          <div class="ev-info"><h4>District 1 Meet Winners</h4><span>November 10</span></div>
+        </div>
+        <div class="ev-card">
+          <img src="assets/images/img24.png" alt="Annual Gift Giving" />
+          <div class="ev-info"><h4>Annual Gift Giving Activity</h4><span>December 19, 2024</span></div>
+        </div>
+        <div class="ev-card">
+          <img src="assets/images/img14.png" alt="Foam Party" />
+          <div class="ev-info"><h4>Foam Party & Fireworks</h4><span>October 25, 2024</span></div>
+        </div>
+        <div class="ev-card">
+          <img src="assets/images/img17.png" alt="Blast Off STEM" />
+          <div class="ev-info"><h4>Blast Off! STEM Exhibit</h4><span>September</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ACHIEVEMENTS -->
+  <section class="achievements" id="achievements">
+    <div class="section-header reveal">
+      <span class="section-tag">03 / Achievements</span>
+      <h2>Awards &amp; <em>Recognition</em></h2>
+    </div>
+    <div class="ach-grid">
+      <div class="ach-card big reveal">
+        <div class="ach-number">01</div>
+        <div class="ach-img">
+          <img src="assets/images/img05.png" alt="1st Place Photography" />
+        </div>
+        <div class="ach-body">
+          <span class="ach-tag">🏆 1st Place</span>
+          <h3>Mobile Photography Contest</h3>
+          <p>89th National Book Week 2023 — STI College Cotabato Library</p>
+          <p class="ach-detail">Awarded for capturing a compelling study scene that resonated with the theme of the National Book Week. The photograph stood out for its lighting, composition, and storytelling quality.</p>
+        </div>
+      </div>
+      <div class="ach-card reveal">
+        <div class="ach-number">02</div>
+        <div class="ach-img">
+          <img src="assets/images/img06.png" alt="Shutters Best" />
+        </div>
+        <div class="ach-body">
+          <span class="ach-tag">🥇 Winner</span>
+          <h3>Shutter's Best</h3>
+          <p>STI Tagisan ng Talino at Sining 2024</p>
+        </div>
+      </div>
+      <div class="ach-card reveal">
+        <div class="ach-number">03</div>
+        <div class="ach-img">
+          <img src="assets/images/img01.png" alt="Shutters Best 2024-2025" />
+        </div>
+        <div class="ach-body">
+          <span class="ach-tag">🥇 Winner</span>
+          <h3>Shutter's Best</h3>
+          <p>STI Tagisan ng Sining 2024–2025 Local Competition</p>
+        </div>
+      </div>
+      <div class="ach-card reveal">
+        <div class="ach-number">04</div>
+        <div class="ach-img">
+          <img src="assets/images/img31.png" alt="Editor's Note" />
+        </div>
+        <div class="ach-body">
+          <span class="ach-tag">✍️ Lead Editor</span>
+          <h3>INSTINCT Magazine — Editor</h3>
+          <p>Official School Publication of STI College Cotabato Senior High School Department, January 2025 Issue</p>
+        </div>
+      </div>
+      <div class="ach-card reveal">
+        <div class="ach-number">05</div>
+        <div class="ach-img">
+          <img src="assets/images/img04.png" alt="Radio Intern" />
+        </div>
+        <div class="ach-body">
+          <span class="ach-tag">📻 Broadcast Intern</span>
+          <h3>BACOMM OJT — Radio Broadcasting</h3>
+          <p>On-the-job training at a local broadcast station, appearing live on-air as a named intern — 2024</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section class="skills" id="skills">
+    <div class="section-header reveal">
+      <span class="section-tag">04 / Skills</span>
+      <h2>What I <em>Do</em></h2>
+    </div>
+    <div class="skills-layout">
+      <div class="skills-list">
+        <div class="skill-item reveal" data-pct="90">
+          <div class="skill-info">
+            <span class="skill-name">Photo Editing &amp; Manipulation</span>
+            <span class="skill-pct">90%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill"></div></div>
+        </div>
+        <div class="skill-item reveal" data-pct="85">
+          <div class="skill-info">
+            <span class="skill-name">Editorial Layout &amp; Design</span>
+            <span class="skill-pct">85%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill"></div></div>
+        </div>
+        <div class="skill-item reveal" data-pct="80">
+          <div class="skill-info">
+            <span class="skill-name">Video Editing</span>
+            <span class="skill-pct">80%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill"></div></div>
+        </div>
+        <div class="skill-item reveal" data-pct="85">
+          <div class="skill-info">
+            <span class="skill-name">Color Grading</span>
+            <span class="skill-pct">85%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill"></div></div>
+        </div>
+        <div class="skill-item reveal" data-pct="88">
+          <div class="skill-info">
+            <span class="skill-name">Creative Writing &amp; Journalism</span>
+            <span class="skill-pct">88%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill"></div></div>
+        </div>
+        <div class="skill-item reveal" data-pct="75">
+          <div class="skill-info">
+            <span class="skill-name">Broadcast &amp; Radio Communication</span>
+            <span class="skill-pct">75%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill"></div></div>
+        </div>
+        <div class="skill-item reveal" data-pct="82">
+          <div class="skill-info">
+            <span class="skill-name">Mobile Photography</span>
+            <span class="skill-pct">82%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill"></div></div>
+        </div>
+        <div class="skill-item reveal" data-pct="78">
+          <div class="skill-info">
+            <span class="skill-name">Motion Graphics &amp; Visual Storytelling</span>
+            <span class="skill-pct">78%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-fill"></div></div>
+        </div>
+      </div>
+      <div class="skills-side reveal">
+        <div class="skills-quote">
+          <p>"Every frame tells a story. Every word carries weight. I create with intention."</p>
+          <cite>— Armina Agao</cite>
+        </div>
+        <div class="tools-grid">
+          <div class="tool-badge">Adobe Photoshop</div>
+          <div class="tool-badge">Canva</div>
+          <div class="tool-badge">CapCut</div>
+          <div class="tool-badge">Radio Broadcasting</div>
+          <div class="tool-badge">Journalism</div>
+          <div class="tool-badge">Mobile Photography</div>
+          <div class="tool-badge">Editorial Writing</div>
+          <div class="tool-badge">Layout Design</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM / CONTRIBUTORS -->
+  <section class="team" id="team">
+    <div class="section-header reveal">
+      <span class="section-tag">05 / Team</span>
+      <h2>The <em>Contributors</em></h2>
+      <p>The talented team behind the INSTINCT Official School Publication.</p>
+    </div>
+    <div class="team-grid">
+      <div class="team-card reveal">
+        <div class="team-role">Project Manager</div>
+        <div class="team-name">Ulambae Odin</div>
+      </div>
+      <div class="team-card highlight reveal">
+        <div class="team-role">Editor</div>
+        <div class="team-name">Armina Agao</div>
+        <div class="team-badge">You Are Here</div>
+      </div>
+      <div class="team-card reveal">
+        <div class="team-role">Content Writer</div>
+        <div class="team-name">Danice Kyle Rodeo</div>
+      </div>
+      <div class="team-card reveal">
+        <div class="team-role">Assistant Editor</div>
+        <div class="team-name">Ma. Cristena Gaspar</div>
+      </div>
+      <div class="team-card reveal">
+        <div class="team-role">Designer</div>
+        <div class="team-name">Farhana Salem</div>
+      </div>
+      <div class="team-card reveal">
+        <div class="team-role">Proofreader</div>
+        <div class="team-name">Noronisa Omar</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CLOSING -->
+  <section class="closing" id="closing">
+    <div class="closing-noise"></div>
+    <div class="closing-content reveal">
+      <span class="section-tag light">06 / Let's Connect</span>
+      <h2>Every story<br /><em>deserves</em> to be told.</h2>
+      <p>Dedicated to the craft of visual storytelling, editorial excellence, and authentic communication. Based at STI College Cotabato, always growing, always creating.</p>
+      <div class="closing-links">
+        <a href="mailto:sti.college@cotabato.sti.edu.ph" class="contact-link">
+          <span class="contact-icon">✉</span>
+          <span>sti.college@cotabato.sti.edu.ph</span>
+        </a>
+        <a href="https://www.facebook.com/STICollegeCotabato" target="_blank" class="contact-link">
+          <span class="contact-icon">f</span>
+          <span>STI College Cotabato</span>
+        </a>
+        <div class="contact-link">
+          <span class="contact-icon">☎</span>
+          <span>(064) 421 3628</span>
+        </div>
+      </div>
+    </div>
+    <div class="closing-footer">
+      <p>© 2025 Armina Agao · Creative Portfolio · STI College Cotabato</p>
+      <p class="open-source">Open Source — <a href="https://github.com" target="_blank">View on GitHub</a></p>
+    </div>
+  </section>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox">
+    <div class="lb-backdrop" id="lbBackdrop"></div>
+    <div class="lb-content">
+      <button class="lb-close" id="lbClose">✕</button>
+      <img src="" alt="" id="lbImg" />
+      <div class="lb-caption" id="lbCaption"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
